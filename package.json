@@ -1,0 +1,17 @@
+{
+  "name": "weathershow",
+  "version": "1.0.0",
+  "description": "An webapp which show weather for different regions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hemang Prajapati",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "bootstrap": "^5.0.1",
+    "express": "^4.17.1",
+    "https": "^1.0.0"
+  }
+}

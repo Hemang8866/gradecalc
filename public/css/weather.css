@@ -1,0 +1,39 @@
+*{
+	background-color: #264653;
+}
+.header{
+	font-family: 'Roboto Slab', serif;
+	font-size:25pt;
+	color:#fff;
+	text-align: center;
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+
+
+}
+.input {
+	font-family: 'Playfair Display', serif;
+	color:#fff;
+
+}
+.size{
+	width:300px;
+	height:50px;
+
+	text-align: center;
+	border: 2px solid #264653;
+	
+}
+.prg{
+
+	font-family: 'Zilla Slab', serif;
+}
+
+.button{
+	width:200px;
+	height:40px;
+	padding: 5px;
+
+}
