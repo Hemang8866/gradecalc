@@ -8,7 +8,7 @@ app.use(express.static('public'));
 app.get("/", (req,res)=>{
 	res.sendFile(__dirname + "/index.html");
 });
-app.post("/resultpage", (req,res)=>{
+app.post("/", (req,res)=>{
 	const city = req.body.text;
 	const apikey = "9e21d98c120b5b7813d182223762aa3d";
 	const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apikey}`;
